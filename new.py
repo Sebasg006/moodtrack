@@ -63,7 +63,7 @@ class MoodTrackerApp:
         if os.path.exists(FILENAME):
             messagebox.showinfo("Exportado", f"Historial guardado en '{FILENAME}'.")
         else:
-            messagebox.showerror("Error", "No hay datos para exportar.")
+            messagebox.showerror("Error", "No hay datos para expor.")
 
 # Ejecutar la app
 if __name__ == "__main__":
